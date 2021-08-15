@@ -69,6 +69,7 @@ h4{
     color: #e8bf65;
     font-size: 1.4em;
     border-bottom: 1px dotted #b45008;
+    text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
 }
 p{
     font-size: 1.2em;
@@ -83,6 +84,7 @@ footer{
     align-items: center;
 }
 article{
+    float: left;
     width: 50%;
     padding: 1em;
 }
@@ -129,6 +131,8 @@ footer ul{
     width: 80%;
     margin: auto;
     display: block;
+    border-radius: 10px / 20px;
+    box-shadow: 1px 3px 10px black;
 }
 .nosotros{
     background-color: #b45008;
